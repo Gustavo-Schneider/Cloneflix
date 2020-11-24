@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.movieRow{
+    margin-bottom: 30px;
+}
+.movieRow h2{
+    margin: 0px 0px 0px 30px;
+}
+.movieRow--list{
+    transition: all ease 500ms;
+}
+.movieRow--listarea{
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+.movieRow--item{
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+.movieRow--item img{
+    width: 100%;
+    transform: scale(0.9);
+}
+.movieRow--item img:hover{
+    transform: scale(1);
+    transition: all ease 300ms;
+}
+.movieRow--left{
+    position: absolute;
+    left: 0;
+    filter: contrast(0%);
+    filter: brightness(100);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    z-index: 99;
+    width: 40px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+}
+.movieRow--right{
+    position: absolute;
+    right: 0;
+    filter: contrast(0%);
+    filter: brightness(100);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    z-index: 99;
+    width: 40px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+}
+.movieRow:hover .movieRow--left{
+    opacity: 1;
+    transition: all ease 500ms;
+}
+
+.movieRow:hover .movieRow--right{
+    opacity: 1;
+    transition: all ease 500ms;
+}
+@media (max-width: 760px) {
+    .movieRow--left,
+    .movieRow--right{
+        opacity: 1;
+    }
+}
