@@ -1,6 +1,6 @@
 # <h1>Cloneflix</h1>
-<h2>My firt project </h2>
- I started programming a short time ago so I made this simple project to apply what I've been learning, the idea of the project is to recreate the Netflix home page using React, optimized for computer use as well as for mobile use.  I put some screensshots and a video demonstrating the application.
+ I started programming a short time ago so I made this simple project to apply what I've been learnin. <br/>
+ The idea of the project is to recreate the Netflix home page using React, optimized for computer use as well as for mobile use.  I put some screensshots and a video demonstrating the application.
  <br/>
  <h2>Screenshots<h2/>
  <img src="https://github.com/guxmtt/Cloneflix/blob/main/screenshots%20and%20videos/screen_mobile_1.png"/><img src="https://github.com/guxmtt/Cloneflix/blob/main/screenshots%20and%20videos/screen_mobile_2.png"/> <img src="https://github.com/guxmtt/Cloneflix/blob/main/screenshots%20and%20videos/screen_mobile_3.png"/>
