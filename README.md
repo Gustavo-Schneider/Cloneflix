@@ -1,8 +1,5 @@
 # <h1>Cloneflix</h1>
- I started programming a short time ago so I made this simple project to apply what I've been learnin. <br/>
- The idea of the project is to recreate the Netflix home page using React, optimized for computer use as well as for mobile use.  I put some screensshots and a video demonstrating the application.
  <br/>
- 
  <h2>ToDo list</h2>
 <ul>
     <li>:heavy_check_mark: Horizontal scrolling through lists</li>
